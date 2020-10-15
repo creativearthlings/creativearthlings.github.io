@@ -1,4 +1,9 @@
+# Ignore doc fies
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+.ruby-version
+
+# Ignore backup files
+*.backup

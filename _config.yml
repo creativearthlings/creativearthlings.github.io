@@ -1,0 +1,23 @@
+# Setup
+title:               Creative Earthlings
+email:               creativearthlings@gmail.com
+tagline:             ''
+description:         ''
+url:                 https://creativearthlings.com
+baseurl:             ''
+twitter_username:    jekyllrb
+github_username:     creativearthlings
+
+paginate:            5
+paginate_path:       "/blog/page:num/"
+permalink:           pretty
+
+# Gems
+plugins:
+  - jekyll-paginate
+  - jekyll-octicons
+  - jekyll-feed
+
+# Custom vars
+version:              0.0
+google_analytics_id: #UA-XXXX-Y
