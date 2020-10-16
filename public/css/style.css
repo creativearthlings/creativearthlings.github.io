@@ -1,9 +1,43 @@
+/* Font import  */
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800,900|Poppins:300,400,500,600,700,800,900&display=swap");
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-size: normal;
+    font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Nunito", sans-serif;
+	color: #ffffff;
+	margin-top: 0px;
+	font-style: normal;
+	font-weight: 500;
+	text-transform: normal
+}
+/* navbar */
+
+.navbar {
+    box-shadow: 0 4px 8px 0 rgba(189, 189, 189, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 /* Earthling Logo animation */
 .earthling_svg {
-   height: 20rem;
-   width: 20rem;
    fill:#1b1b1b;
    color:#fff;
+   height: 60px;
+   width: 60px;
+   margin-top: -8px;
+   margin-bottom: -8px;
 }
 
 .earthling_leftEye {
@@ -25,3 +59,26 @@
    .earthling_svg:hover .earthling_antenna{animation:none}
    .earthling_svg .earthling_antenna{animation:octocat-wave 560ms ease-in-out}
 }
+
+/* temp coming soon */
+.main-body {
+    height: 100vh;
+    width: inherit;
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    align-items: center;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+.main-body h1 {
+    text-align: center;
+    font-size: 75px;
+}
+
+
+
