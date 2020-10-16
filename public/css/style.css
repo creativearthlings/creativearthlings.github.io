@@ -1,0 +1,27 @@
+/* Earthling Logo animation */
+.earthling_svg {
+   height: 20rem;
+   width: 20rem;
+   fill:#1b1b1b;
+   color:#fff;
+}
+
+.earthling_leftEye {
+   fill:#ff5c5c;
+   fill-opacity:1;
+}
+
+.earthling_svg:hover .earthling_antenna{
+   animation:octocat-wave 560ms ease-in-out;
+   transform-origin: 10% 40%;
+}
+
+@keyframes octocat-wave{
+   0%,100%{transform:rotate(0)}
+   20%,60%{transform:rotate(-10deg)}
+   40%,80%{transform:rotate(10deg)}
+}
+@media (max-width:500px){
+   .earthling_svg:hover .earthling_antenna{animation:none}
+   .earthling_svg .earthling_antenna{animation:octocat-wave 560ms ease-in-out}
+}
