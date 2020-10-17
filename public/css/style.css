@@ -40,14 +40,8 @@ h6 {
    margin-bottom: -8px;
 }
 
-.earthling_leftEye {
-   fill:#ff5c5c;
-   fill-opacity:1;
-}
-
 .earthling_svg:hover .earthling_antenna{
    animation:octocat-wave 560ms ease-in-out;
-   transform-origin: 10% 40%;
 }
 
 @keyframes octocat-wave{
