@@ -1,6 +1,6 @@
 /* Font import  */
 @import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800,900|Poppins:300,400,500,600,700,800,900&display=swap");
-
+ 
 html,
 body {
     margin: 0;
@@ -25,19 +25,12 @@ h6 {
 	text-transform: normal
 }
 
-/* navbar */
-/* .navbar {
-    box-shadow: 0 4px 8px 0 rgba(189, 189, 189, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-} */
-
 /* Earthling Logo animation */
 .earthling_svg {
    fill: white;
    color:#fff;
-   height: 60px;
-   width: 60px;
-   margin-top: -8px;
-   margin-bottom: -8px;
+   height: 3rem;
+   width: 3rem;
 }
 
 .earthling_svg:hover .earthling_antenna{
@@ -56,15 +49,13 @@ h6 {
 
 /* Waves SVG */
 .waves {
+    position: relative;
     background: #343a40;
     color: #FFF;
     text-align: center;
+    overflow: hidden;
 }
 
-.waves h1 {
-    font-size: 6rem;
-}
-
-.waves p {
-    font-size: 1rem;
+.waves svg {
+    display: block;
 }
