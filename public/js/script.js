@@ -1,24 +1,8 @@
 
 (function ($) {
     "use strict";
-
-
-    /*==================================================================
-    Focus Contact */
-    $('.input').each(function(){
-        $(this).on('blur', function(){
-            if($(this).val().trim() != "") {
-                $(this).addClass('has-val');
-            }
-            else {
-                $(this).removeClass('has-val');
-            }
-        })    
-    })
   
-  
-    /*==================================================================
-    [ Validate ]*/
+    /* Validate */
     var name = $('.validate-input input[name="name"]');
     var email = $('.validate-input input[name="email"]');
     var message = $('.validate-input textarea[name="message"]');
