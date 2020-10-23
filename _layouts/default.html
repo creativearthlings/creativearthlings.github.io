@@ -57,37 +57,52 @@
 			</svg>
 		</div>
 		<div class="section bg-light">
-			<form class="text-center border border-light p-5 m-4" action="#!">
-
-				<p class="h4 mb-4">Contact us</p>
-
-				<!-- Name -->
-				<input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
-
-				<!-- Email -->
-				<input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
-
-				<!-- Subject -->
-				<label>Subject</label>
-				<select class="browser-default custom-select mb-4">
-					<option value="" disabled>Choose option</option>
-					<option value="1" selected>I want a product designed!</option>
-					<option value="2">Report a bug</option>
-					<option value="3">Feature request</option>
-					<option value="4">General Query</option>
-				</select>
-
-				<!-- Message -->
-				<div class="form-group">
-					<textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+			<div class="row justify justify-content-center">
+				<div class="col-11 col-md-8 col-lg-6 col-xl-5">
+					<form class="text-light" action="https://formspree.io/f/mzbkraoq" method="POST">
+						<div class="card bg-dark">
+							<div class="row mt-0">
+								<div class="col-md-12 ">
+									<h4 class="">Contact Us</h4>
+									<p></p>
+								</div>
+							</div>
+							<div class="form-group row mb-3">
+								<div class="col-md-12 mb-0">
+									<p class="mb-1">Name</p> <input id="name" type="text" placeholder="Enter your Name" name="Name" class="form-control input-box rm-border">
+								</div>
+							</div>
+							<div class="form-group row mb-3">
+								<div class="col-md-12 mb-0">
+									<p class="mb-1">Email</p> <input id="e-mail" type="email" placeholder="Enter your email" name="E-mail" class="form-control input-box rm-border">
+								</div>
+							</div>
+							<!-- <div class="form-group row mb-3">
+								<div class="col-md-12 mb-0">
+									<label>Subject</label>
+									<select class="browser-default custom-select mb-4" name="Subject">
+										<option value="" disabled>Choose option</option>
+										<option value="I want a product designed!" selected>I want a product designed!</option>
+										<option value="Report a bug">Report a bug</option>
+										<option value="Feature request">Feature request</option>
+										<option value="General Query">General Query</option>
+									</select>
+								</div>
+							</div> -->
+							<div class="form-group row">
+								<div class="col-md-12 mb-2">
+									<p class="mb-1">Message</p> <textarea id="message" type="text" placeholder="Enter your message" name="Message" class="form-control input-box rm-border"></textarea>
+								</div>
+							</div>
+							<div class="form-group row justify-content-center mb-0">
+								<div class="col-md-12 px-3"> <input type="submit" value="Submit" class="btn btn-block btn-purple rm-border"> </div>
+							</div>
+						</div>
+					</form>
 				</div>
-
-				<!-- Send button -->
-				<button class="btn btn-info btn-block" type="submit">Send</button>
-
-			</form>
+			</div>
 		</div>
-		
+
 		<div class="waves">
 			<svg viewBox="0 0 1440 320" style="background: #f8f9fa;">
 			  <path fill="#dc3545" fill-opacity="1" d="M0,192L20,202.7C40,213,80,235,120,208C160,181,200,107,240,96C280,85,320,139,360,165.3C400,192,440,192,480,181.3C520,171,560,149,600,165.3C640,181,680,235,720,218.7C760,203,800,117,840,117.3C880,117,920,203,960,234.7C1000,267,1040,245,1080,218.7C1120,192,1160,160,1200,133.3C1240,107,1280,85,1320,96C1360,107,1400,149,1420,170.7L1440,192L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"></path>
