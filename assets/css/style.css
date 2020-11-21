@@ -1,0 +1,46 @@
+/* Font import  */
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800,900|Poppins:300,400,500,600,700,800,900&display=swap");
+
+/* Earthling Logo animation */
+.earthling_svg {
+    fill: #191919;
+    color:#fff;
+    height: 2rem;
+    width: 2rem;
+ }
+ 
+ .navbar-brand:hover .earthling_antenna{
+    animation:swing-antenna 560ms ease-in-out;
+ }
+ 
+ @keyframes swing-antenna{
+    0%,100%{transform:rotate(0)}
+    20%,60%{transform:rotate(-10deg)}
+    40%,80%{transform:rotate(10deg)}
+ }
+ @media (max-width:500px){
+    .navbar-brand:hover .earthling_antenna{animation:none}
+    .navbar-brand .earthling_antenna{animation:swing-antenna 560ms ease-in-out}
+ }
+
+ .navbar-brand {
+    font-family: "Nunito", sans-serif;
+    color: #343a40;
+ }
+
+ /* Waves SVG */
+.waves {
+    margin: -0px 0 -4rem 0;
+    display: block;
+    /* position: relative; */
+    overflow: hidden;
+  }
+  
+  .waves svg {
+    display: block;
+  }
+
+/* Section */
+section {
+    margin-top: -1px;
+}

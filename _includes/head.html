@@ -1,24 +1,27 @@
 <head>
-    <link href="https://gmpg.org/xfn/11" rel="profile">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
   
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, shrink-to-fit=no">
-    
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-      
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ 'assets/bootstrap/css/bootstrap.min.css' | absolute_url }}">
   
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
-  
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="{{ 'assets/fonts/font-awesome.min.css' | absolute_url }}">
+ 
+    <!-- Gallery -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="{{ 'assets/css/Basic-fancyBox-Gallery-v2.css' | absolute_url }}">
+ 
+    <!-- Animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    
     <title>
         {% if page.title == "Home" %}
             {{ site.title }} &middot; {{ site.tagline }}
@@ -31,17 +34,25 @@
         <link rel="canonical" href="{{ page.url | absolute_url }}">
     {% endif %}
 
-    <!-- Custom Style Sheet -->
-    <link rel="stylesheet" href="{{ '/public/css/style.css' | absolute_url }}">
-    <link rel="stylesheet" type="text/css" href="{{ '/public/fonts/font-awesome-4.7.0/css/font-awesome.min.css'}}">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | absolute_url }}">
+    <link rel="stylesheet" type="text/css" href="{{ 'assets/css/smoothproducts.css'}}">
+    
     <!-- Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ 'public/icons/apple-touch-icon.png' | absolute_url }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ 'public/icons/favicon-32x32.png' | absolute_url }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ 'public/icons/favicon-16x16.png' | absolute_url }}">
-    <link rel="shortcut icon" href="{{ 'public/icons/favicon.ico' | absolute_url }}">
-    <link rel="manifest" href="{{ 'public/icons/site.webmanifest' | absolute_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ 'assets/icons/apple-touch-icon.png' | absolute_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ 'assets/icons/favicon-32x32.png' | absolute_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ 'assets/icons/favicon-16x16.png' | absolute_url }}">
+    <link rel="shortcut icon" href="{{ 'assets/icons/favicon.ico' | absolute_url }}">
+    <link rel="manifest" href="{{ 'assets/icons/site.webmanifest' | absolute_url }}">
     <!-- RSS feed -->
     <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/atom.xml' | absolute_url }}">
+
+    <!-- Site JS -->
+    <script src="{{ 'assets/js/jquery.min.js' | absolute_url }}"></script>
+    <script src="{{ 'assets/bootstrap/js/bootstrap.min.js' | absolute_url }}"></script>
+    <script src="{{ 'assets/js/bs-init.js' | absolute_url }}"></script>
+
+    <!-- Custom JS -->
+    <script src="{{ 'assets/js/script.js' | absolute_url }}"></script>
 </head>
   
