@@ -2,6 +2,7 @@
 layout: default
 title: Home
 ---
+
 <main class="page landing-page">
 	<section class="clean-block clean-hero" style="background-image:url(&quot;assets/img/pexels/earth.jpg&quot;);color:rgba(9, 162, 255, 0.85);"><img>
 		<div class="pulse animated text">
